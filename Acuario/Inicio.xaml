@@ -1,0 +1,19 @@
+﻿<Window x:Class="Acuario.Inicio"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Acuario"
+        mc:Ignorable="d"
+        Title="Inicio" Height="450" Width="800">
+    <Grid>
+        <Image Margin="0,-10,0,10" Width="Auto" Height="Auto" Source="/Imagenes/fondoMarino.jpg" Stretch="Fill"/>
+        <Button Content="CONTROL" HorizontalAlignment="Left" VerticalAlignment="Top" Height="62" Width="276" FontFamily="Copperplate Gothic Bold" FontSize="40" Background="Aqua" Margin="62,74,0,0" Click="goToControlPiscina"/>
+        <Button Content="MINIJUEGO" HorizontalAlignment="Left" VerticalAlignment="Top" Height="62" Width="276" FontFamily="Copperplate Gothic Bold" FontSize="35" Background="Aqua" Margin="450,74,0,0" Click="goToMinijuego"/>
+        <Button Content="SALAS" HorizontalAlignment="Left" VerticalAlignment="Top" Height="62" Width="276" FontFamily="Copperplate Gothic Bold" FontSize="48" Background="Aqua" Margin="62,245,0,0" Click="goToSalas"/>
+        <Button Content="CONTACTO" HorizontalAlignment="Left" VerticalAlignment="Top" Height="62" Width="276" FontFamily="Copperplate Gothic Bold" FontSize="38" Background="Aqua" Margin="450,245,0,0" Click="goToContacto"/>
+        <Button HorizontalAlignment="Left" Margin="62,334,0,0" VerticalAlignment="Top" Height="53" Width="101" Background="Transparent" BorderBrush="Transparent" Click="goBack" >
+            <Image Source="Imagenes/backwhitee.png"></Image>
+        </Button>
+    </Grid>
+</Window>

@@ -1,0 +1,25 @@
+﻿<Window x:Class="Acuario.Minijuego"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Acuario"
+        mc:Ignorable="d"
+        Title="Minijuego" Height="450" Width="800">
+    <Grid>
+        <Image Margin="0,-17,0,0" Width="Auto" Height="Auto" Source="/Imagenes/fondito.jpg" Stretch="Fill"/>
+
+        <Image Name="Nemo" Source="/Imagenes/Nemoo.png" HorizontalAlignment="Left" Height="199" Margin="111,80,0,0" VerticalAlignment="Top" Width="{Binding ElementName=Slider1,Path=Value, Mode=TwoWay}"/>
+
+        <!--Slider1-->
+        <Slider Name="Slider1" HorizontalAlignment="Left" Margin="62,270,0,0" VerticalAlignment="Top" Height="24" Width="280" Value="10" Maximum="300" Minimum="80" TickFrequency="1" IsSnapToTickEnabled="True" TickPlacement="TopLeft"/>
+
+        <Label Content="BIENVENIDOS AL MINIJUEGO DE NEMO"  FontSize="25" HorizontalAlignment="Center" Margin="0,21,0,0" VerticalAlignment="Top" Height="47" Width="451"/>
+        <Button Content="Nemo pequeño" HorizontalAlignment="Left" Margin="522,86,0,0" VerticalAlignment="Top" Height="89" Width="194" Background="Transparent" Click="smallNemo" Foreground="AliceBlue" BorderBrush="Transparent"/>
+        <Button Content="Nemo mediano" HorizontalAlignment="Left" Margin="522,180,0,0" VerticalAlignment="Top" Height="78" Width="194" Background="Transparent" Click="mediumNemo" Foreground="AliceBlue" BorderBrush="Transparent" />
+        <Button Content="Nemo grande" HorizontalAlignment="Left" Margin="522,283,0,0" VerticalAlignment="Top" Height="77" Width="194" Background="Transparent" Click="bigNemo" Foreground="AliceBlue" BorderBrush="Transparent"/>
+        <Button HorizontalAlignment="Left" Margin="62,334,0,0" VerticalAlignment="Top" Height="53" Width="101" Background="Transparent" BorderBrush="Transparent" Click="goBack">
+            <Image Source="/Imagenes/backwhitee.png"/>
+        </Button>
+    </Grid>
+</Window>

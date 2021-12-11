@@ -1,0 +1,21 @@
+﻿<Window x:Class="Acuario.Mamiferos"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Acuario"
+        mc:Ignorable="d"
+        Title="Mamiferos" Height="450" Width="800">
+    <Grid>
+        <Image Margin="0,-10,0,0" Width="Auto" Height="Auto" Source="/Imagenes/delfines.jpg" Stretch="Fill"/>
+        <Label Content="BIENVENIDO A LA SALA DE LOS MAMÍFEROS" HorizontalAlignment="Left" Margin="57,10,0,0" VerticalAlignment="Top" Height="48" Width="473" FontSize="23" Foreground="Azure"/>
+        <Label Content="ANIMALES" HorizontalAlignment="Left" Margin="327,58,0,0" VerticalAlignment="Top" Height="45" Width="117" FontSize="23" Foreground="Azure"/>
+        <Image Source="/Imagenes/ballena.jpg" Margin="44,101,561,190"/>
+        <Image Source="/Imagenes/marsopa.jpg" Margin="222,244,383,46"/>
+        <Image Source="/Imagenes/manati.jpg" Margin="327,108,216,184"/>
+        <Image Source="/Imagenes/lobo.jpg" Margin="545,252,64,54"/>
+        <Button HorizontalAlignment="Left" Margin="62,334,0,0" VerticalAlignment="Top" Height="53" Width="101" Background="Transparent" BorderBrush="Transparent" Click="goBack">
+            <Image Source="/Imagenes/backwhitee.png"/>
+        </Button>
+    </Grid>
+</Window>

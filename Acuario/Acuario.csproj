@@ -1,0 +1,83 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="back.png" />
+    <None Remove="backwhitee.png" />
+    <None Remove="ballena.jpg" />
+    <None Remove="bicho.jpg" />
+    <None Remove="cangrejo.jpg" />
+    <None Remove="centollo.jpg" />
+    <None Remove="crustaceos.jpg" />
+    <None Remove="delfines.jpg" />
+    <None Remove="fondito.jpg" />
+    <None Remove="fondoMarino.jpg" />
+    <None Remove="fondoMarino2.jpg" />
+    <None Remove="gamba.jpg" />
+    <None Remove="Imagenes\backwhitee.png" />
+    <None Remove="Imagenes\bicho.jpg" />
+    <None Remove="Imagenes\cangrejo.jpg" />
+    <None Remove="Imagenes\centollo.jpg" />
+    <None Remove="Imagenes\fondito.jpg" />
+    <None Remove="Imagenes\gamba.jpg" />
+    <None Remove="Imagenes\langosta.jpg" />
+    <None Remove="Imagenes\lobo.jpg" />
+    <None Remove="Imagenes\manati.jpg" />
+    <None Remove="Imagenes\mapa.png" />
+    <None Remove="Imagenes\marlyn.png" />
+    <None Remove="Imagenes\marsopa.jpg" />
+    <None Remove="Imagenes\mua.jpg" />
+    <None Remove="Imagenes\Nemoo.png" />
+    <None Remove="Imagenes\peces.jpg" />
+    <None Remove="Imagenes\tropicalete.jpg" />
+    <None Remove="Imagenes\ves.jpg" />
+    <None Remove="langosta.jpg" />
+    <None Remove="lobo.jpg" />
+    <None Remove="manati.jpg" />
+    <None Remove="mapa.png" />
+    <None Remove="marlyn.png" />
+    <None Remove="marsopa.jpg" />
+    <None Remove="mua.jpg" />
+    <None Remove="Nemoo.png" />
+    <None Remove="peces.jpg" />
+    <None Remove="salaTropical.jpeg" />
+    <None Remove="tropical.jpg" />
+    <None Remove="tropicalete.jpg" />
+    <None Remove="ves.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Imagenes\backwhitee.png" />
+    <Resource Include="Imagenes\ballena.jpg" />
+    <Resource Include="Imagenes\bicho.jpg" />
+    <Resource Include="Imagenes\cangrejo.jpg" />
+    <Resource Include="Imagenes\centollo.jpg" />
+    <Resource Include="Imagenes\delfines.jpg" />
+    <Resource Include="Imagenes\crustaceos.jpg" />
+    <Resource Include="Imagenes\fondito.jpg" />
+    <Resource Include="Imagenes\fondoMarino2.jpg" />
+    <Resource Include="Imagenes\back.png" />
+    <Resource Include="Imagenes\fondoMarino.jpg" />
+    <Resource Include="Imagenes\gamba.jpg" />
+    <Resource Include="Imagenes\langosta.jpg" />
+    <Resource Include="Imagenes\lobo.jpg" />
+    <Resource Include="Imagenes\manati.jpg" />
+    <Resource Include="Imagenes\mapa.png" />
+    <Resource Include="Imagenes\marlyn.png" />
+    <Resource Include="Imagenes\marsopa.jpg" />
+    <Resource Include="Imagenes\mua.jpg" />
+    <Resource Include="Imagenes\Nemoo.png" />
+    <Resource Include="Imagenes\peces.jpg" />
+    <Resource Include="Imagenes\tiburon.png" />
+    <Resource Include="Imagenes\tropical.jpg" />
+    <Resource Include="Imagenes\tropicalete.jpg" />
+    <Resource Include="Imagenes\ves.jpg" />
+  </ItemGroup>
+
+</Project>

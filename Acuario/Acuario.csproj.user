@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Contacto.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ControlAnimales.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ControlPiscinaAcuario.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Crustaceos.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Inicio.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Mamiferos.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Minijuego.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SalasDelAcuario.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Tropical.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Contacto.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlAnimales.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPiscinaAcuario.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Crustaceos.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Inicio.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Mamiferos.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Minijuego.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SalasDelAcuario.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Tropical.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

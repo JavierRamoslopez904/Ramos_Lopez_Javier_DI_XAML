@@ -1,0 +1,49 @@
+﻿<Window x:Class="Acuario.ControlPiscinaAcuario"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Acuario"
+        mc:Ignorable="d"
+        Title="ControlPiscinaAcuario" Height="450" Width="800">
+    <Grid>
+        <Image Margin="0,-10,0,0" Width="Auto" Height="Auto" Source="/Imagenes/fondito.jpg" Stretch="Fill"/>
+        <DataGrid
+            x:Name="datagridAcuario"
+            Margin="66,76,39,177"
+            AutoGenerateColumns="False"
+            BorderBrush="AliceBlue"
+            BorderThickness="2"
+            IsReadOnly="True"
+            ItemsSource="{Binding Path=listaControl}">
+            <DataGrid.Columns>
+                <DataGridTextColumn
+                    Width="140"
+                    Binding="{Binding Path=nombreDeLaSala}"
+                    Header="Nombre Sala" />
+                <DataGridTextColumn
+                    Width="140"
+                    Binding="{Binding Path=temperatura}"
+                    Header="Temperatura" />
+                <DataGridTextColumn
+                    Width="140"
+                    Binding="{Binding Path=especies}"
+                    Header="Especie" />
+                <DataGridTextColumn
+                    Width="140"
+                    Binding="{Binding Path=ultimaRevision}"
+                    Header="Fecha de Revision" />
+                <DataGridTextColumn
+                    Width="140"
+                    Binding="{Binding Path=tratamientoRealizado}"
+                    Header="Tratamiento " />
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Content="Agregar" HorizontalAlignment="Left" Margin="66,296,0,0" VerticalAlignment="Top" Height="48" Width="89" Click="agregarAnimal"/>
+        <Button Content="Modificar" HorizontalAlignment="Center" Margin="0,295,0,0" VerticalAlignment="Top" Height="49" Width="94" RenderTransformOrigin="0.557,0.555" Click="modificarAnimal"/>
+        <Button Content="Eliminar" HorizontalAlignment="Left" Margin="646,291,0,0" VerticalAlignment="Top" Height="49" Width="100" Click="eliminarAnimal"/>
+        <Button HorizontalAlignment="Left" Margin="66,360,0,0" VerticalAlignment="Top" Height="53" Width="101" Background="Transparent" BorderBrush="Transparent" Click="goBack">
+            <Image Source="Imagenes/backwhitee.png"></Image>
+        </Button>
+    </Grid>
+</Window>

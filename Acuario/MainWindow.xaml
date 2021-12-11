@@ -1,0 +1,16 @@
+﻿<Window x:Class="Acuario.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Acuario"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Image Margin="0,-10,0,10" Width="Auto" Height="Auto" Source="/Imagenes/fondoMarino.jpg" Stretch="Fill"/>
+        <Button Content="INICIO" HorizontalAlignment="Center" VerticalAlignment="Top" Height="62" Width="276" FontFamily="Copperplate Gothic Bold" FontSize="48" Background="Aqua" Margin="0,316,0,0" Click="goToInicio"/>
+        <Image Source="/Imagenes/tiburon.png" Grid.Row="0" Grid.Column="0" Margin="234,100,234,118"/>
+        <Label Content="JAVI AQUARIUM" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Height="61" Width="368" FontFamily="Copperplate Gothic Bold" FontSize="40"/>
+        <Button Content="SALIR" HorizontalAlignment="Left" Margin="663,324,0,0" VerticalAlignment="Top" Height="46" Width="92" FontFamily="Copperplate Gothic Bold" FontSize="20" Background="Red" Click="exit"/>
+    </Grid>
+</Window>

@@ -1,0 +1,23 @@
+﻿<Window x:Class="Acuario.SalasDelAcuario"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Acuario"
+        mc:Ignorable="d"
+        Title="SalasDelAcuario" Height="450" Width="800">
+    <Grid>
+        <Image Margin="0,-10,0,0" Width="Auto" Height="Auto" Source="/Imagenes/fondoMarino2.jpg" Stretch="Fill"/>
+        <Label Content="Salas del acuario" FontSize="30" HorizontalAlignment="Left" Margin="264,0,0,0" VerticalAlignment="Top" Height="49" Width="232"/>
+        <Image Source="/Imagenes/delfines.jpg" Margin="20,60,525,163"/>
+        <Image Source="/Imagenes/crustaceos.jpg" Margin="280,86,266,191"/>
+        <Image Source="/Imagenes/tropical.jpg" Margin="529,85,10,188"/>
+        <Button Content="Mamiferos" HorizontalAlignment="Left" VerticalAlignment="Top" Height="54" Width="226" FontFamily="Copperplate Gothic Bold" FontSize="30" Background="Aqua" Margin="34,252,0,0" Click="goToMamiferos"/>
+        <Button Content="Crustáceos" HorizontalAlignment="Center" VerticalAlignment="Top" Height="44" Width="230" FontFamily="Copperplate Gothic Bold" FontSize="30" Background="Aqua" Margin="0,257,0,0" Click="goToCrustaceos"/>
+        <Button Content="Tropical" HorizontalAlignment="Left" VerticalAlignment="Top" Height="44" Width="227" FontFamily="Copperplate Gothic Bold" FontSize="30" Background="Aqua" Margin="546,257,0,0" Click="goToTropical"/>
+        <Button HorizontalAlignment="Left" Margin="62,334,0,0" VerticalAlignment="Top" Height="53" Width="101" Background="Transparent" BorderBrush="Transparent" Click="goBack" >
+            <Image Source="/Imagenes/backwhitee.png"/>
+        </Button>
+
+    </Grid>
+</Window>
